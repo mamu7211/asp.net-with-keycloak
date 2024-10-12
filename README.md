@@ -2,10 +2,7 @@
 
 ## Disclaimer
 
-All this information is a collection of Websites, Stack Overflow answers and a lot of googling. So my thanks got to the folks out there who cared to upload tutorials and answer questions.
-
-Currently this repository works with:
-
+All this information and code is a based on several blog posts and Stack Overflow answers. My thanks got to the folks out there who cared to upload tutorials and answer questions.
 
 ## Intro
 
@@ -58,6 +55,8 @@ If you know all of this, just follow these simple steps to setup the base:
 **Problem**: When you receive an `InvalidOperationException: The MetadataAddress or Authority must use HTTPS unless disabled for development by setting RequireHttpsMetadata=false.` there are two ways to remove this exception.
 
 **Solution**: Add `options.RequireHttpsMetadata = false;` in `AddOpenIdConnect`.
+
+**Remarks**: I'm not sure if it's a good idea to run Keycloak via http, the WebApp via https and how this impacts the communication between the WebApp and Keycloak. Anyway, for now it works.
 
 ### Page not found
 
