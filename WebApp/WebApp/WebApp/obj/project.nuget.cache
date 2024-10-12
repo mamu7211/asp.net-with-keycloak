@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "NU9z+IHvUv9RKbKgcV3nFbF+aF2T1c97Mt1Cj1avBUR8swAVjt4xwhHDUhTwncAgEeho2HDK9yPklAziLKax/w==",
+  "dgSpecHash": "/uuIAhsZ5g33t1iz/JA+NL9m7WSUgN9OcAEI2zez41g71DfAHxQuIepmZ1KIm1+2UflZ/7lKqD2lQYh9FEVGXg==",
   "success": true,
   "projectFilePath": "C:\\Workspace\\asp.net-with-keycloak\\WebApp\\WebApp\\WebApp\\WebApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\8.0.10\\microsoft.aspnetcore.authentication.openidconnect.8.0.10.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.1.2\\microsoft.identitymodel.abstractions.7.1.2.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.1.2\\microsoft.identitymodel.jsonwebtokens.7.1.2.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.identitymodel.logging\\7.1.2\\microsoft.identitymodel.logging.7.1.2.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.identitymodel.protocols\\7.1.2\\microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.1.2\\microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.1.2\\system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

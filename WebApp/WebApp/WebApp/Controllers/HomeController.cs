@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebApp.Models;
 
@@ -19,6 +20,19 @@ public class HomeController : Controller
     }
 
     public IActionResult Privacy()
+    {
+        return View();
+    }
+
+    [Authorize]
+    public IActionResult Authorized()
+    {
+        return View();
+    }
+
+    
+    [Authorize]
+    public IActionResult AdminPanel()
     {
         return View();
     }
