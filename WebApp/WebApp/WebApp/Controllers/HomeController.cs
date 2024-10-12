@@ -25,13 +25,13 @@ public class HomeController : Controller
     }
 
     [Authorize]
-    public IActionResult Authorized()
+    public IActionResult Authenticated()
     {
         return View();
     }
 
     
-    [Authorize]
+    [Authorize(Roles = "admin")]
     public IActionResult AdminPanel()
     {
         return View();

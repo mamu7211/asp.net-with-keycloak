@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pblBhbmVsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Workspace/asp.net-with-keycloak/WebApp/WebApp/WebApp/Views/Home/Authenticated.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBdXRoZW50aWNhdGVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Workspace/asp.net-with-keycloak/WebApp/WebApp/WebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
