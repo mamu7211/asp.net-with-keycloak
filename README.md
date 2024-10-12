@@ -1,17 +1,38 @@
 # ASP.NET with Keycloak
 
+## Disclaimer
+
+All this information is a collection of Websites, Stack Overflow answers and a lot of googling. So my thanks got to the folks out there who cared to upload tutorials and answer questions.
+
+Currently this repository works with:
+
+
 ## Intro
 
-This repository tries to connect Keycloak with an ASP.NET Web App following a tutorial on Medium ([How to Implement Keycloak Authentication in a .NET Core Application](https://medium.com/@ahmed.gaduo_93938/how-to-implement-keycloak-authentication-in-a-net-core-application-ce8603698f24)).
+This repository tries to connect Keycloak with an ASP.NET Web App following a tutorial on Medium ([How to Implement Keycloak Authentication in a .NET Core Application](https://medium.com/@ahmed.gaduo_93938/how-to-implement-keycloak-authentication-in-a-net-core-application-ce8603698f24)) by [Ahmed Gado](https://medium.com/@ahmed.gaduo_93938).
 
 ## Log
 
 ### Prerequisits
 
-- Create a Keycloak instance via this [Docker Compose File](./Docker-Compose/docker-compose.yaml)
-- Setup a Simple [ASP.NET MVC App](./WebApp/) using Rider
+This repo is tested with following Versions:
+
+|                 | Version |
+|-----------------|---------|
+| Keycloak        | 23.0.6  |
+| ASP.NET Web App | 8.0.3   |
+
+
+You should be able to startup a [Docker Compose](https://docs.docker.com/compose/) file and create an [ASP.NET Core MVC](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-8.0&tabs=visual-studio) application and have a basic understanding of adding controllers and views.
+
+If you know all of this, just follow these simple steps to setup the base:
+
+- Create a Keycloak server instance via this [Docker Compose File](./Docker-Compose/docker-compose.yaml)
+- Setup a Simple [ASP.NET MVC App](./WebApp/) using Rider or Visual Studio.
 - Create a new Realm in Keycloak called `"test-realm"`.
 - A user in `"test-realm"` called `"user"`, which has `Email verified` set to `"Yes"` and a password `"pass"`, with no action after first login.
+
+> **Information**: There's a [Keycloak JSON Export](./Keycloak-Settings/realm-export.json) of the Keycloak realm i used, you can use this to setup your realm if you like.
 
 ### Configure Keycloak Client Settings
 
@@ -42,4 +63,4 @@ This repository tries to connect Keycloak with an ASP.NET Web App following a tu
 
 **Problem**: After logging in I got an 404 saying `https://localhost:7048/Account/AccessDenied?ReturnUrl=%2FHome%2FAdminPanel` was not found.
 
-**Solution**: 
+**Solution**: None yet.
