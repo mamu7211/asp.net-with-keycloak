@@ -17,7 +17,7 @@ This repo is tested with following Versions:
 |                 | Version |
 |-----------------|---------|
 | Keycloak        | 23.0.6  |
-| ASP.NET Web App | 8.0.3   |
+| ASP.NET Web App | 8.0.10  |
 
 
 You should be able to startup a [Docker Compose](https://docs.docker.com/compose/) file and create an [ASP.NET Core MVC](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-8.0&tabs=visual-studio) application and have a basic understanding of adding controllers and views.
